@@ -12,3 +12,11 @@ A database is essential to use this project.
 V1.0 https://github.com/peace-jung/react-kanbanboard.git
 
 V2.0 Developing...
+
+# How to Use
+
+- npm install
+- npm build (Client && Server Build)
+- npm start (Client Start)
+- npm server (Server Start)
+- npm development (Server Development Mode)
