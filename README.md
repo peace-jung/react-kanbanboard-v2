@@ -5,8 +5,7 @@ Client + Server Setting
 # How to Use
 
 - npm install
-- npm build (Client Build)
-- npm serbuild (Server Build)
+- npm build (Client && Server Build)
 - npm start (Client Start)
 - npm server (Server Start)
-- npm devserver (Server Development Mode)
+- npm development (Server Development Mode)
