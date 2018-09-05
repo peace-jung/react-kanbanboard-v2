@@ -8,6 +8,10 @@ Web-based Kanban Board System used by University for Project Management and Team
 
 A database is essential to use this project.
 
+칸반 방법론을 적용한 프로젝트 관리 시스템입니다.
+
+학교에서 진행하는 프로젝트의 관리 및 협업을 위해 개발 중입니다.
+
 ## Release
 V1.0 https://github.com/peace-jung/react-kanbanboard.git
 
@@ -16,7 +20,6 @@ V2.0 Developing...
 # How to Use
 
 - npm install
-- npm build (Client && Server Build)
+- npm run build (Client Build)
 - npm start (Client Start)
-- npm server (Server Start)
-- npm development (Server Development Mode)
+- npm run development (Server Development Mode)
