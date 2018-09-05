@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.sider {
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -15px;
+    bottom: 0;
+}
+
+.srcoll_bind {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 190px;
+    border-right: 1px solid #eee;
+}

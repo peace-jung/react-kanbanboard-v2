@@ -3,12 +3,20 @@
 import express from 'express';
 import path from 'path';
 import bodyParser from 'body-parser';
+import session from 'express-session';
 
 const app = express();
 const port = 4000;
 
 /* middleware */
 app.use(bodyParser.json());
+
+/* use session */
+app.use(session({
+    secret: 'vsSD#JFs!dk4234jSVSUBRF928',
+    resave: false,
+    saveUninitialized: true
+  }));
 
 /* static files */
 app.use('/', express.static(__dirname + './../dist'));
@@ -22,5 +30,5 @@ app.get('*', (req, res) => {
 
 /* server open */
 app.listen(port, () => {
-    console.log('Express is listening on port', port);
+    console.log('Express server on port ', port);
 });

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.search {
+    height: 36px;
+    margin-left: 190px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
